@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coders website</title>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- local css file -->
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <a href="#" class="logo">coders</a>
+
+        <a class="menu fas fa-bars"></a>
+
+        <nav class="navbar">
+            <a href="#">home</a>
+            <a href="#about">about</a>
+            <a href="#services">services</a>
+            <a href="#projects">projects</a>
+            <a href="#contact">contact</a>
+        </nav>
+    </header>
+    <!-- header -->
+    <!-- home section -->
+    <section id="home" class="home">
+        <h1>
+            we are coders <br />
+            we create great stuff
+        </h1>
+    </section>
+    <!-- home section -->
+    <!-- about section -->
+    <section id="about" class="about">
+        <div class="box-container">
+            <div class="box">
+                <h2 class="heading">Coder History</h2>
+                <p>
+                    British countess and mathematician Ada Lovelace is often considered to be the first computer programmer, as she was the first to publish part of a program (specifically an algorithm) intended for implementation on Charles Babbage's analytical engine in October 1842.
+                </p>
+            </div>
+
+            <div class="box">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Two_women_operating_ENIAC_%28full_resolution%29.jpg" alt="" />
+            </div>
+        </div>
+    </section>
+    <!-- about section -->
+    <!-- team section -->
+    <section id="team" class="team">
+        <h2 class="heading">Famous Coders</h2>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="data:image/jpeg;base64,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" alt="" />
+                </div>
+
+                <div class="info">
+                    <h3>Guido van Rossum</h3>
+                    <p>
+                        Computer programmer Guido van Rossum created the Python programming language in 1989.
+                    </p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="data:image/jpeg;base64,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" alt="" />
+                </div>
+
+                <div class="info">
+                    <h3>Bjarne Stroustrup</h3>
+                    <p>
+                        Early in the 1980s, Danish computer scientist and professor Bjarne Stroustrup developed the C++ programming language. C++, one of the most popular programming languages in the world, was created by him to add object-oriented capabilities to the C language.
+                    </p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="data:image/jpeg;base64,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" alt="" />
+                </div>
+
+                <div class="info">
+                    <h3>Alan Turing</h3>
+                    <p>
+                        Alan Turing was a British mathematician and computer scientist who contributed significantly to the growth of artificial intelligence, cryptography and computer science. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- team section -->
+    <!-- services section -->
+    <section id="services" class="services">
+        <h2 class="heading">our services</h2>
+        <div class="box-container">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <ion-icon class="icon" name="navigate-outline"></ion-icon>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="card-content">
+                            <h2>Heading</h2>
+                            <p>A heading is a word, phrase, or sentence at the beginning of a written passage that explains what it's about. A heading is very similar to a title. A heading is similar to a caption, a line below a photograph that briefly explains it.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <ion-icon class="icon" name="medal-outline"></ion-icon>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="card-content">
+                            <h2>Web Design</h2>
+                            <p>Web designing is the process of planning, conceptualizing, and implementing the plan for designing a website in a way that is functional and offers a good user experience.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <ion-icon class="icon" name="flame-outline"></ion-icon>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="card-content">
+                            <h2>App Design</h2>
+                            <p>App design is an ongoing process comprising user experience (UX) and user interface (UI) elements. Designers ideate, define solutions, create the app's flow and structure, and make stylistic choices from colors to fonts.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <ion-icon class="icon" name="layers-outline"></ion-icon>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="card-content">
+                            <h2>Start Up</h2>
+                            <p>Startups are young companies founded to develop a unique product or service, bring it to market and make it irresistible and irreplaceable for customers.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <ion-icon class="icon" name="flash-outline"></ion-icon>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="card-content">
+                            <h2>Branding</h2>
+                            <p>Branding is the process of creating the brand identity of a company. This process also delivers materials that support the brand, like a logo, tagline, visual design, or tone of voice.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <ion-icon class="icon" name="magnet-outline"></ion-icon>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="card-content">
+                            <h2>Creative Design</h2>
+                            <p>Creative design involves using computer-generated imagery and digital animation to visualise a product. It aims to produce unique and memorable designs that stand out so that customers may easily identify a brand or product.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <ion-icon class="icon" name="paper-plane-outline"></ion-icon>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="card-content">
+                            <h2>Learing</h2>
+                            <p>Learning is “a process that leads to change, which occurs as a result of experience and increases the potential for improved performance and future learning”</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <ion-icon class="icon" name="bag-outline"></ion-icon>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="card-content">
+                            <h2>Shopping Cart</h2>
+                            <p> A shopping cart on an online retailer's site is a piece of software that facilitates the purchase of a product or service.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- services section -->
+    <!-- projects section -->
+    <section id="projects" class="projects">
+        <h2 class="heading">Projects</h2>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzPKvtHhKNAB5Hh7pkQQOm8GbCOK80H9AK-Q&usqp=CAU" alt="" />
+                    <div class="overlay">
+                        <h3>Build a Multi-Page Responsive Website</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://images.unsplash.com/photo-1569098644584-210bcd375b59?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzh8fHByb2plY3RzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="" />
+                    <div class="overlay">
+                        <h3>Design a Small JavaScript Game</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://images.unsplash.com/photo-1620325867502-221cfb5faa5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHJvamVjdHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="" />
+                    <div class="overlay">
+                        <h3>Random Number Generator</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpmQHGPEuZrm-uEJdS1ocLPXQrUaPFCbCxRw&usqp=CAU" alt="" />
+                    <div class="overlay">
+                        <h3>Redesign an Existing Website Template</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2Vic2l0ZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" />
+                    <div class="overlay">
+                        <h3>Create a Simple Application</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fHdlYnNpdGV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="" />
+                    <div class="overlay">
+                        <h3>Build a Working Chess Game</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- projects section -->
+    <!-- contact section -->
+    <section id="contact" class="contact">
+        <h2 class="heading">contact us</h2>
+        <div class="box-container">
+            <div class="box">
+                <div class="form-group">
+                    <ion-icon name="location-outline"></ion-icon>
+                    <span>Noida, Uttar Pradesh</span>
+                </div>
+
+                <div class="form-group">
+                    <ion-icon name="call-outline"></ion-icon>
+                    <span>+91 9149112927</span>
+                </div>
+
+                <div class="form-group">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <span>gangwara831@gmail.com</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <input type="text" placeholder="name" />
+                <input type="text" placeholder="email" />
+                <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+                <button>submit</button>
+            </div>
+        </div>
+    </section>
+    <!-- contact section -->
+    <!-- footer section -->
+    <section class="footer">
+        <div class="socials">
+            <ion-icon name="logo-google"></ion-icon>
+            <ion-icon name="logo-snapchat"></ion-icon>
+            <ion-icon name="logo-twitter"></ion-icon>
+            <ion-icon name="logo-youtube"></ion-icon>
+            <ion-icon name="logo-linkedin"></ion-icon>
+        </div>
+
+        <div class="copyright">
+            <p>designed by Future Coders</p>
+        </div>
+    </section>
+    <!-- footer section -->
+    <!-- ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- local js file -->
+    <script src="script.js"></script>
+</body>
+
+</html>
